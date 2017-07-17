@@ -34,7 +34,7 @@ in the world.
   <p>
     At the beginning of 2017 I left Gratafy for the opportunity to join <a href="http://www.boaweb.com/" target="_blank">BackOffice Associates</a>,
     a company producing industry-leading data governance and stewardship technology for large multi-national
-    corporations. In this position I'm working on a small team responsible for building the company's next
+    corporations. In my current role, I'm working on a small team responsible for building the company's next
     generation cloud infrastructure.
   </p>
 
