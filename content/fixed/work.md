@@ -11,7 +11,7 @@ href="http://tritontechnical.com" target="_blank">Triton Technical</a> setout to
 standard in highend AV/IT systems for <a href="https://s3-eu-west-1.amazonaws.com/y.co/default/CALLISTO-0-5672e6f368a90_v_default_big.jpeg" target="_blank"> mega yachts</a>. I leveraged my formal 
 education in Audio Engineering to help build and commission custom AV solutions. 
 By the end of 2011 my initially hardware-focused role had all but shifted to software.
-By the fall of 2012 I was writing software fulltime on a small team, building
+By the fall of 2012 I was writing software fulltime, building
 custom touchpanels to control nearly every guest-accessible system onboard the vessel;
 from lighting and HVAC to IPTV and navigation systems. Technically speaking, it ranged from 
 low level hacking on IP, serial, and other communication protocols to buiding GUIs.
