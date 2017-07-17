@@ -12,7 +12,7 @@ standard in highend AV/IT systems for <a href="https://s3-eu-west-1.amazonaws.co
 education in Audio Engineering to help build and commission custom AV solutions. 
 By the end of 2011 my initially hardware-focused role had all but shifted to software.
 By the fall of 2012 I was writing software fulltime, building
-custom touchpanels to control nearly every guest-accessible system onboard the vessel;
+custom touchpanels to control nearly every guest-accessible system onboard the vessel-
 from lighting and HVAC to IPTV and navigation systems. Technically speaking, it ranged from 
 low level hacking on IP, serial, and other communication protocols to buiding GUIs.
 I spent most of this time traveling around the world building and deploying
