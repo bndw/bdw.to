@@ -17,7 +17,7 @@ from lighting and HVAC to IPTV and navigation systems. Technically speaking, it 
 low level hacking on IP, serial, and other communication protocols to buiding GUIs.
 I spent most of this time traveling around the world building and deploying
 systems at a whirlwind pace, everywhere from prominant European, Middle Eastern, and South American cities,
-to sleepy coastal towns, to tropical villages.
+to sleepy coastal towns and tropical villages.
   </p>
 
   <p>
