@@ -6,8 +6,8 @@
 }
 
   <p>
-    In 2009 I joined my first startup. Founded by 3 Vulcan engineers, <a
-href="http://tritontechnical.com" target="_blank">Triton Technical</a> setout to provide the 
+    In 2009 I joined my first startup. Founded by 3 Vulcan engineers, 
+Triton Technical setout to provide the 
 standard in highend AV/IT systems for <a href="https://s3-eu-west-1.amazonaws.com/y.co/default/CALLISTO-0-5672e6f368a90_v_default_big.jpeg" target="_blank"> mega yachts</a>. I leveraged my formal 
 education in Audio Engineering to help build and commission custom AV solutions. 
 By the end of 2011 my initially hardware-focused role had all but shifted to software.
@@ -21,7 +21,7 @@ to sleepy coastal towns and tropical villages.
   </p>
 
   <p>
-    Toward the end of 2013, with nearly a full passport, I joined an early stage technology startup called <a href="http://gratafy.com" target="_blank">Gratafy</a>
+    Toward the end of 2013, with nearly a full passport, I joined an early stage technology startup called Gratafy
 to work on cloud software. As one of the first engineering hires
 at a rapidly growing ecommerce company, I worked on everything 
 from custom payment integrations for point-of-sale terminals, 
@@ -32,7 +32,7 @@ in the world.
   </p>
 
   <p>
-    At the beginning of 2017 I left Gratafy for the opportunity to join <a href="http://www.boaweb.com/" target="_blank">BackOffice Associates</a>,
+    At the beginning of 2017 I left Gratafy for the opportunity to join BackOffice Associates,
     a company producing industry-leading data governance and stewardship technology for large multi-national
     corporations. In my current role, I'm working on a small team responsible for building the company's next
     generation cloud infrastructure.
