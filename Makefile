@@ -17,9 +17,11 @@ deploy:
 	ssh alaska ./deploy_bdwto
 	rm bdw.to.tgz
 
-dev: stop build
-	docker run -d --name bdw.to -p 5001:80 $(TAG)
+#dev: stop build
+	#docker run -d --name bdw.to -p 5001:80 $(TAG)
+dev:
 	open http://localhost:5001
+	cd public && python -m SimpleHTTPServer 5001
 
 stop:
 	docker kill bdw.to || true
