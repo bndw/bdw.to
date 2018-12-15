@@ -25,6 +25,10 @@ ul {
   padding-bottom: 2rem;
 }
 
+li {
+  list-style: inside;
+}
+
 a { 
   color: #222; 
   border-bottom: 1px solid #c2c2c2;
