@@ -28,7 +28,11 @@ ul {
 }
 
 li {
-  list-style: inside;
+  list-style: circle;
+}
+
+li > a {
+  margin-left: 0.8rem
 }
 
 a { 
