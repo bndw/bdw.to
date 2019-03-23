@@ -9,7 +9,6 @@ clean:
 build: clean
 	cp -R root/* .build/
 	cp -R public/* .build/var/www/bdw.to/
-	docker build -t $(TAG) .
 
 deploy:
 	tar -czf bdw.to.tgz public
