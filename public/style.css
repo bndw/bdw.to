@@ -7,34 +7,28 @@ body {
   margin-top: 4rem;
   max-width: 50rem;
 }
-
 h1 {
   color: #222;
   font-size: 1.4rem;
   font-weight: 300;
   margin: 0;
 }
-
 h2 {
   color: #444;
   font-size: 1rem;
   font-weight: 300;
   margin: 0;
 }
-
 ul {
   padding-left: 2.5rem;
   padding-bottom: 2rem;
 }
-
 li {
   list-style: circle;
 }
-
 li > a {
   margin-left: 0.8rem
 }
-
 a { 
   color: #222; 
   border-bottom: 1px solid #c2c2c2;
