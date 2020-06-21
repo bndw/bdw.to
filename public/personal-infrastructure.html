@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ben Woodward</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Personal Infrastructure</h1>
+    <h2>Overview</h2>
+
+    <p>The following describes how I build, deploy, and operate my personal websites and services in 2020.
+    The most notable change in the past few years has been the move from Systemd to Kubernetes for service management.
+    </p>
+
+    <img style="max-width: 50rem;" src="https://user-images.githubusercontent.com/4248167/85231637-de638680-b3ad-11ea-99e5-632f43bc1258.png">
+
+    <h2>DNS</h2>
+    <p>All domain names use AWS Route53 nameservers. Terraform manages the lifecycle of zones and records.</p>
+
+    <h2>Compute</h2>
+    <p>Everything runs on a single AWS EC2 instance using the K3s Kubernetes distro, effectively replacing Systemd unit files and bash scripts. All associated networking and configuration is managed by Terraform.</p>
+
+    <h2>Reverse Proxy</h2>
+    <p>A single <a href="https://github.com/containous/traefik">Traefik</a> proxy listens on port 80/443 and upgrades traffic to HTTPS.
+    Certficates are automatically generated and renewed using <a href="https://cert-manager.io">cert-manager</a> and <a href="https://letsencrypt.org">Let's Encrypt</a>. Requests are routed to the appropriate upstream service by Host header or path.
+    </p>
+
+    <h2>Services</h2>
+    <p>I primarily run static websites and Go services but regardless of technology, everything is built in CircleCI and distributed in a Docker image published to Dockerhub.</p>
+
+    <h2>Deployments and GitOps</h2>
+    <p>The desired state of every service, configuration, and route is declaratively stored in a git repository and automatically syncronized to the cluster using the <a href="https://fluxcd.io/">FluxCD</a> deployment operator. A typical deployment consists of updating a Docker image tag in a yaml file. Most services are configured to auto deploy anytime a new Docker image is published.
+    </p>
+
+    <div>
+      <a href="/">&#8592; home</a>
+    </div>
+  </body>
+</html>
