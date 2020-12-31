@@ -1,8 +1,5 @@
 name: ci
 on: pull_request
-#on:
-#  push:
-#    branches: master
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
@@ -20,6 +17,5 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
-        name: Build and publish
-        run: |
-          make build && make publish
+        name: Build
+        run: make build && make publish
