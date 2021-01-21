@@ -19,12 +19,11 @@ h2 {
   margin: 0;
 }
 ul {
-  padding-left: 2.5rem;
   padding-bottom: 2rem;
+  padding-left: 0;
 }
 li {
-  list-style: circle;
-  margin-left: 0.8rem
+  list-style: none;
 }
 a { 
   color: #222; 
