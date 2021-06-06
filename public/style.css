@@ -20,10 +20,15 @@ h2 {
 }
 ul {
   padding-bottom: 2rem;
-  padding-left: 0;
 }
 li {
-  list-style: none;
+  list-style-type: none;
+}
+li span {
+  color: #606060;
+  font-size: 0.8em;
+  font-style: italic;
+  padding-left: 0.2em;
 }
 a { 
   color: #222; 
