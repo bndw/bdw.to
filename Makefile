@@ -15,6 +15,9 @@ publish:
 	@docker tag $(TAG_LATEST) $(TAG_COMMIT)
 	docker push $(TAG_COMMIT)
 
+run:
+	@docker run --rm -p 8080:80 $(TAG_LATEST)
+
 .PHONY: dev
 dev:
 	open http://localhost:5001
