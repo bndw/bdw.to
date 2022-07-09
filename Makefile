@@ -20,5 +20,5 @@ run:
 
 .PHONY: dev
 dev:
-	open http://localhost:5001
-	cd public && python -m SimpleHTTPServer 5001
+	open http://localhost:8000
+	cd public && python3 -m http.server
